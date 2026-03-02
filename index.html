@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joe's Coffee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-900 antialiased">
+    <header class="bg-white shadow">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-6">
+          <div class="flex items-center space-x-3">
+            <div class="h-10 w-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold">JC</div>
+            <h1 class="text-xl font-semibold">Joe's Coffee</h1>
+          </div>
+          <nav class="hidden md:flex space-x-6 text-sm text-gray-600">
+            <a href="#menu" class="hover:text-gray-900">Menu</a>
+            <a href="#about" class="hover:text-gray-900">About</a>
+            <a href="#contact" class="hover:text-gray-900">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-gradient-to-r from-yellow-100 to-yellow-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div>
+              <h2 class="text-4xl font-extrabold text-gray-900 leading-tight">Welcome to Joe's Coffee</h2>
+              <p class="mt-4 text-lg text-gray-700">Handcrafted espresso, cozy vibes, and a neighborhood feel. Stop by for your morning boost or an afternoon treat.</p>
+              <div class="mt-6 flex items-center space-x-4">
+                <a href="#menu" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white px-5 py-3 rounded-md font-medium">View Menu</a>
+                <a href="#contact" class="inline-block border border-yellow-600 text-yellow-600 px-5 py-3 rounded-md font-medium hover:bg-yellow-50">Find Us</a>
+              </div>
+            </div>
+            <div class="flex justify-center md:justify-end">
+              <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=60" alt="Coffee cup" class="rounded-lg shadow-lg w-full max-w-md object-cover">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h3 class="text-2xl font-semibold text-gray-900">Menu</h3>
+        <p class="text-gray-600 mt-2">Simple, seasonal, and delicious. Our highlights:</p>
+
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow p-6">
+            <h4 class="font-semibold text-lg">Classic Espresso</h4>
+            <p class="text-gray-600 mt-2">Rich, velvety espresso shot pulled to perfection.</p>
+            <div class="mt-4 text-yellow-600 font-medium">$2.50</div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow p-6">
+            <h4 class="font-semibold text-lg">Cappuccino</h4>
+            <p class="text-gray-600 mt-2">Smooth steamed milk with a perfect crema.
+            </p>
+            <div class="mt-4 text-yellow-600 font-medium">$3.75</div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow p-6">
+            <h4 class="font-semibold text-lg">Iced Latte</h4>
+            <p class="text-gray-600 mt-2">Chilled espresso over ice with your choice of milk.</p>
+            <div class="mt-4 text-yellow-600 font-medium">$4.00</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="bg-white border-t">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h3 class="text-xl font-semibold">About Joe's Coffee</h3>
+          <p class="text-gray-600 mt-2">Family-owned since 2010. We source direct-trade beans and roast them locally. A welcoming place for everyone.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="contact" class="bg-gray-900 text-gray-100">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div class="md:flex md:justify-between md:items-center">
+          <div>
+            <h4 class="text-lg font-semibold">Joe's Coffee</h4>
+            <p class="mt-2 text-sm text-gray-400">123 Bean Street<br>Cityville, ST 12345</p>
+          </div>
+
+          <div class="mt-6 md:mt-0">
+            <p class="text-sm text-gray-400">Hours: Mon–Fri 7am–5pm · Sat–Sun 8am–4pm</p>
+            <p class="text-sm text-gray-400 mt-2">Contact: (555) 123-4567 · hello@joes.coffee</p>
+          </div>
+        </div>
+
+        <div class="mt-8 border-t border-gray-800 pt-6 text-sm text-gray-500">
+          © "Joe's Coffee" — Roasting joy since 2010
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
